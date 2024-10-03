@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(50, 50, 50);
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 1.1em;
+
+}
+
+.linea{
+    display: inline-block;
+}
+
+.checkbox{
+    display: inline-block;
+    margin-left: 10px;
+    transform: scale(1.5);
+}
+
+#genera{
+    transform: scale(1.2);
+    margin-left: 12px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 170, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#lunghezza{
+    transform: scale(1.1);
+    margin-left: 220px;
+    font-size: 15px;
+}
+
+#pw{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.scritte{
+    color: white;
+}
+
+
+.crediti{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}

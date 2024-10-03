@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di password casuale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="scritte">Generatore di password casuale</h1>
+
+    <div>
+        <p class="scritte">Scegli la lunghezza della password (minimo 1, massimo 20)</p>
+        <input id="lunghezza"type="number" min="0" max="20" value = "10"><br><br>
+    </div>
+        
+    <div>
+        <p class="linea scritte">Desideri includere lettere in minuscolo?</p>
+        <input id="mincheck" class="checkbox" type="checkbox" checked> <br>
+
+        <p class="linea scritte">Desideri includere lettere in maiuscolo?</p>
+        <input id="maicheck" class="checkbox" type="checkbox" checked> <br>
+
+        <p class="linea scritte">Desideri includere numeri?</p>
+        <input id="numcheck" class="checkbox" type="checkbox" checked> <br>
+
+        <p class="linea scritte">Desideri includere simboli?</p>
+        <input id="simcheck" class="checkbox" type="checkbox" checked> <br>
+    </div>
+
+    <div>
+        <p class="scritte">La password generata è:</p>
+        <p id="pw" class="scritte"></p>
+    </div>    
+    
+    <button id="genera">Rigenera password</button>
+
+    <h6 class="crediti scritte">Creato da <a href="https://github.com/DRKmochh">DRKmochh</a></h6>
+
+    <script src="index.js"></script>
+</body>
+</html>
